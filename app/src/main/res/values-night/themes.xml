@@ -2,6 +2,26 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Bixi" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/iregular</item>
+        <item name="android:iconTint">@color/iconColorDark</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <style name="CustomProgressDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:statusBarColor">@color/black</item>
     </style>
 </resources>

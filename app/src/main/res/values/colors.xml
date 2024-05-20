@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFCD29</color>
+    <color name="colorPrimaryVariant">#FFCD29</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSecondary">#340583</color>
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorText">#000000</color> <!-- Black -->
+
+    <color name="iconColorLight">#000000</color> <!-- Black for light theme -->
+<color name="iconColorDark">#FFFFFF</color> <!-- White for dark theme -->
+
+
+    <color name="silver">#C0C0C0</color>
+
+    <color name="shimmer_placeholder">#dddddd</color>
 </resources>
